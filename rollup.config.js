@@ -12,7 +12,8 @@ export default {
     'tag-hoc',
     'emotion-theming',
     'palx',
-    'grid-emotion'
+    'grid-emotion',
+    'recompose'
   ],
   plugins: [
     alias({
