@@ -1,5 +1,5 @@
 {
-  "name": "grid-emotion",
+  "name": "rebass-emotion",
   "version": "1.0.4",
   "description": "Functional React UI component library, built with emotion, wrapper around rebass",
   "main": "dist/index.cjs.js",
