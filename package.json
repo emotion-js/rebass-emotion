@@ -1,6 +1,6 @@
 {
   "name": "rebass-emotion",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Functional React UI component library, built with emotion, wrapper around rebass",
   "main": "dist/index.cjs.js",
   "module": "dist/index.es.js",
@@ -45,7 +45,7 @@
   },
   "dependencies": {
     "emotion-theming": "^8.0.2-11",
-    "grid-emotion": "^2.0.0-11",
+    "grid-emotion": "^2.1.0",
     "palx": "^1.0.2",
     "prop-types": "^15.6.0",
     "recompose": "^0.25.1",
