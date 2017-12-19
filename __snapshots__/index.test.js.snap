@@ -196,13 +196,8 @@ exports[`exports a Button component 1`] = `
   background-color: blue;
 }
 
-.glamor-0:disabled {
-  opacity: 0.25;
-}
-
-.glamor-0:active {
-  background-color: blue;
-  box-shadow: inset 0 0 8px rgba(0,0,0,0.25);
+.glamor-0:hover {
+  box-shadow: inset 0 0 0 999px rgba(0,0,0,0.125);
 }
 
 .glamor-0:focus {
@@ -210,8 +205,13 @@ exports[`exports a Button component 1`] = `
   box-shadow: 0 0 0 2px blue;
 }
 
-.glamor-0:hover {
-  box-shadow: inset 0 0 0 999px rgba(0,0,0,0.125);
+.glamor-0:active {
+  background-color: blue;
+  box-shadow: inset 0 0 8px rgba(0,0,0,0.25);
+}
+
+.glamor-0:disabled {
+  opacity: 0.25;
 }
 
 <button
@@ -245,13 +245,8 @@ exports[`exports a ButtonCircle component 1`] = `
   border-radius: 99999px;
 }
 
-.glamor-0:disabled {
-  opacity: 0.25;
-}
-
-.glamor-0:active {
-  background-color: blue;
-  box-shadow: inset 0 0 8px rgba(0,0,0,0.25);
+.glamor-0:hover {
+  box-shadow: inset 0 0 0 999px rgba(0,0,0,0.125);
 }
 
 .glamor-0:focus {
@@ -259,8 +254,13 @@ exports[`exports a ButtonCircle component 1`] = `
   box-shadow: 0 0 0 2px blue;
 }
 
-.glamor-0:hover {
-  box-shadow: inset 0 0 0 999px rgba(0,0,0,0.125);
+.glamor-0:active {
+  background-color: blue;
+  box-shadow: inset 0 0 8px rgba(0,0,0,0.25);
+}
+
+.glamor-0:disabled {
+  opacity: 0.25;
 }
 
 <button
@@ -277,7 +277,7 @@ exports[`exports a ButtonOutline component 1`] = `
   padding-right: 32px;
   padding-top: 16px;
   font-size: 14px;
-  color: white;
+  color: blue;
   background-color: transparent;
   font-family: inherit;
   line-height: 1.1428571428571428;
@@ -295,28 +295,8 @@ exports[`exports a ButtonOutline component 1`] = `
   box-shadow: inset 0 0 0 2px;
 }
 
-.glamor-0:active {
-  color: white;
-  background-color: blue;
-  box-shadow: inset 0 0 0 2px blue,inset 0 0 8px rgba(0,0,0,0.25);
-}
-
-.glamor-0:focus {
-  box-shadow: inset 0 0 0 2px,0 0 0 2px;
-}
-
 .glamor-0:hover {
-  color: white;
-  background-color: blue;
-}
-
-.glamor-0:disabled {
-  opacity: 0.25;
-}
-
-.glamor-0:active {
-  background-color: transparent;
-  box-shadow: inset 0 0 8px rgba(0,0,0,0.25);
+  box-shadow: inset 0 0 0 999px rgba(0,0,0,0.125);
 }
 
 .glamor-0:focus {
@@ -324,8 +304,28 @@ exports[`exports a ButtonOutline component 1`] = `
   box-shadow: 0 0 0 2px transparent;
 }
 
+.glamor-0:active {
+  background-color: transparent;
+  box-shadow: inset 0 0 8px rgba(0,0,0,0.25);
+}
+
+.glamor-0:disabled {
+  opacity: 0.25;
+}
+
 .glamor-0:hover {
-  box-shadow: inset 0 0 0 999px rgba(0,0,0,0.125);
+  color: white;
+  background-color: blue;
+}
+
+.glamor-0:focus {
+  box-shadow: inset 0 0 0 2px,0 0 0 2px;
+}
+
+.glamor-0:active {
+  color: white;
+  background-color: blue;
+  box-shadow: inset 0 0 0 2px blue,inset 0 0 8px rgba(0,0,0,0.25);
 }
 
 <button
@@ -342,7 +342,7 @@ exports[`exports a ButtonTransparent component 1`] = `
   padding-right: 32px;
   padding-top: 16px;
   font-size: 14px;
-  color: white;
+  color: inherit;
   background-color: transparent;
   font-family: inherit;
   line-height: 1.1428571428571428;
@@ -359,27 +359,8 @@ exports[`exports a ButtonTransparent component 1`] = `
   background-color: transparent;
 }
 
-.glamor-0:active {
-  background-color: transparent;
-  box-shadow: inset 0 0 0 2px,inset 0 0 8px rgba(0,0,0,0.25);
-}
-
-.glamor-0:focus {
-  box-shadow: inset 0 0 0 2px,0 0 0 2px;
-}
-
 .glamor-0:hover {
-  color: blue;
-  background-color: transparent;
-}
-
-.glamor-0:disabled {
-  opacity: 0.25;
-}
-
-.glamor-0:active {
-  background-color: transparent;
-  box-shadow: inset 0 0 8px rgba(0,0,0,0.25);
+  box-shadow: inset 0 0 0 999px rgba(0,0,0,0.125);
 }
 
 .glamor-0:focus {
@@ -387,8 +368,27 @@ exports[`exports a ButtonTransparent component 1`] = `
   box-shadow: 0 0 0 2px transparent;
 }
 
+.glamor-0:active {
+  background-color: transparent;
+  box-shadow: inset 0 0 8px rgba(0,0,0,0.25);
+}
+
+.glamor-0:disabled {
+  opacity: 0.25;
+}
+
 .glamor-0:hover {
-  box-shadow: inset 0 0 0 999px rgba(0,0,0,0.125);
+  color: blue;
+  background-color: transparent;
+}
+
+.glamor-0:focus {
+  box-shadow: inset 0 0 0 2px,0 0 0 2px;
+}
+
+.glamor-0:active {
+  background-color: transparent;
+  box-shadow: inset 0 0 0 2px,inset 0 0 8px rgba(0,0,0,0.25);
 }
 
 <button
@@ -491,8 +491,8 @@ exports[`exports a Close component 1`] = `
   padding-left: 32px;
   padding-right: 32px;
   padding-top: 16px;
-  font-size: 14px;
-  color: white;
+  font-size: 20px;
+  color: inherit;
   background-color: transparent;
   font-family: inherit;
   line-height: 1.1428571428571428;
@@ -516,27 +516,8 @@ exports[`exports a Close component 1`] = `
   height: 24px;
 }
 
-.glamor-0:active {
-  background-color: transparent;
-  box-shadow: inset 0 0 0 2px,inset 0 0 8px rgba(0,0,0,0.25);
-}
-
-.glamor-0:focus {
-  box-shadow: inset 0 0 0 2px,0 0 0 2px;
-}
-
 .glamor-0:hover {
-  color: blue;
-  background-color: transparent;
-}
-
-.glamor-0:disabled {
-  opacity: 0.25;
-}
-
-.glamor-0:active {
-  background-color: transparent;
-  box-shadow: inset 0 0 8px rgba(0,0,0,0.25);
+  box-shadow: inset 0 0 0 999px rgba(0,0,0,0.125);
 }
 
 .glamor-0:focus {
@@ -544,8 +525,27 @@ exports[`exports a Close component 1`] = `
   box-shadow: 0 0 0 2px transparent;
 }
 
+.glamor-0:active {
+  background-color: transparent;
+  box-shadow: inset 0 0 8px rgba(0,0,0,0.25);
+}
+
+.glamor-0:disabled {
+  opacity: 0.25;
+}
+
 .glamor-0:hover {
-  box-shadow: inset 0 0 0 999px rgba(0,0,0,0.125);
+  color: blue;
+  background-color: transparent;
+}
+
+.glamor-0:focus {
+  box-shadow: inset 0 0 0 2px,0 0 0 2px;
+}
+
+.glamor-0:active {
+  background-color: transparent;
+  box-shadow: inset 0 0 0 2px,inset 0 0 8px rgba(0,0,0,0.25);
 }
 
 <button
@@ -669,16 +669,16 @@ exports[`exports a DotButton component 1`] = `
   appearance: none;
 }
 
-.glamor-0:disabled {
-  opacity: 0.25;
+.glamor-0:hover {
+  background-color: blue;
 }
 
 .glamor-0:focus {
   background-color: blue;
 }
 
-.glamor-0:hover {
-  background-color: blue;
+.glamor-0:disabled {
+  opacity: 0.25;
 }
 
 <button
@@ -761,16 +761,16 @@ exports[`exports a Flex component 1`] = `
 `;
 
 exports[`exports a Group component 1`] = `
-.glamor-0 > *:last-child {
-  border-radius: 0 4px 4px 0;
+.glamor-0 > * {
+  border-radius: 0;
 }
 
 .glamor-0 > *:first-child {
   border-radius: 4px 0 0 4px;
 }
 
-.glamor-0 > * {
-  border-radius: 0;
+.glamor-0 > *:last-child {
+  border-radius: 0 4px 4px 0;
 }
 
 <div
@@ -826,13 +826,13 @@ exports[`exports a Input component 1`] = `
   appearance: none;
 }
 
-.glamor-0:disabled {
-  opacity: 0.25;
-}
-
 .glamor-0:focus {
   outline: none;
   box-shadow: inset 0 0 0 1px blue;
+}
+
+.glamor-0:disabled {
+  opacity: 0.25;
 }
 
 <input
@@ -964,12 +964,12 @@ exports[`exports a NavLink component 1`] = `
   cursor: pointer;
 }
 
-.glamor-0:disabled {
-  opacity: 0.25;
-}
-
 .glamor-0:hover {
   background-color: rgba(0,0,0,0.0625);
+}
+
+.glamor-0:disabled {
+  opacity: 0.25;
 }
 
 <a
@@ -1066,7 +1066,7 @@ exports[`exports a Progress component 1`] = `
   appearance: none;
 }
 
-.glamor-0::-moz-progress-bar {
+.glamor-0::-webkit-progress-bar {
   background-color: blue;
 }
 
@@ -1074,7 +1074,7 @@ exports[`exports a Progress component 1`] = `
   background-color: blue;
 }
 
-.glamor-0::-webkit-progress-bar {
+.glamor-0::-moz-progress-bar {
   background-color: blue;
 }
 
@@ -1187,12 +1187,12 @@ exports[`exports a Select component 1`] = `
   box-shadow: inset 0 0 0 1px gray2;
 }
 
-.glamor-2 select:disabled {
-  opacity: 0.25;
-}
-
 .glamor-2 select:focus {
   box-shadow: inset 0 0 0 1px blue;
+}
+
+.glamor-2 select:disabled {
+  opacity: 0.25;
 }
 
 .glamor-0 {
@@ -1218,7 +1218,6 @@ exports[`exports a Select component 1`] = `
   width: 8px;
   height: 8px;
   margin: 12px;
-  -webkit-fill: currentcolor;
   fill: currentcolor;
 }
 
@@ -1307,6 +1306,7 @@ exports[`exports a Star component 1`] = `
   width: 1em;
   height: 1em;
   color: blue;
+  -webkit-clip: rect(0,.45em,1em,0);
   clip: rect(0,.45em,1em,0);
 }
 
@@ -1339,15 +1339,15 @@ exports[`exports a Sticky component 1`] = `
 exports[`exports a Subhead component 1`] = `
 .glamor-0 {
   margin: 0px;
-  font-size: 32px;
+  font-size: 24px;
   margin: 0px;
-  font-size: 32px;
+  font-size: 24px;
   line-height: 1.25;
   margin: 0px;
   font-size: 24px;
 }
 
-<h2
+<h3
   className="glamor-0"
   is={null}
 />
@@ -1469,13 +1469,13 @@ exports[`exports a Textarea component 1`] = `
   appearance: none;
 }
 
-.glamor-0:disabled {
-  opacity: 0.25;
-}
-
 .glamor-0:focus {
   outline: none;
   box-shadow: inset 0 0 0 1px blue;
+}
+
+.glamor-0:disabled {
+  opacity: 0.25;
 }
 
 <textarea
@@ -1517,9 +1517,18 @@ exports[`exports a Tooltip component 1`] = `
   background-color: transparent;
 }
 
-.glamor-0:hover::before,
-.glamor-0:hover::after {
-  display: block;
+.glamor-0::before {
+  display: none;
+  content: "undefined";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-4px);
+  -ms-transform: translate(-50%,-4px);
+  transform: translate(-50%,-4px);
+  white-space: nowrap;
+  color: blue;
+  background-color: blue;
 }
 
 .glamor-0::after {
@@ -1537,18 +1546,9 @@ exports[`exports a Tooltip component 1`] = `
   border-top-color: blue;
 }
 
-.glamor-0::before {
-  display: none;
-  content: "undefined";
-  position: absolute;
-  bottom: 100%;
-  left: 50%;
-  -webkit-transform: translate(-50%,-4px);
-  -ms-transform: translate(-50%,-4px);
-  transform: translate(-50%,-4px);
-  white-space: nowrap;
-  color: blue;
-  background-color: blue;
+.glamor-0:hover::before,
+.glamor-0:hover::after {
+  display: block;
 }
 
 <div
