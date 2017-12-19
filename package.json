@@ -59,6 +59,7 @@
   "scripts": {
     "lint": "eslint . --fix --ignore-path .gitignore",
     "build": "rimraf dist && rollup -c",
+    "prepare": "npm run build",
     "test": "eslint . --ignore-path .gitignore && npm run build && jest",
     "jest": "jest"
   }
