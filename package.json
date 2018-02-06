@@ -1,24 +1,23 @@
 {
   "name": "rebass-emotion",
   "version": "1.0.6",
-  "description": "Functional React UI component library, built with emotion, wrapper around rebass",
+  "description":
+    "Functional React UI component library, built with emotion, wrapper around rebass",
   "main": "dist/index.cjs.js",
   "module": "dist/index.es.js",
   "author": "Brent Jackson",
   "license": "MIT",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.0.1",
     "babel-jest": "^21.2.0",
-    "babel-plugin-emotion": "^8.0.2-11",
+    "babel-plugin-emotion": "^9.0.0",
     "babel-plugin-external-helpers": "^6.22.0",
     "babel-preset-env": "^1.6.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
-    "emotion": "^8.0.2-12",
+    "emotion": "^9.0.0",
     "eslint": "^4.8.0",
     "eslint-config-prettier": "^2.6.0",
     "eslint-config-standard": "^10.2.1",
@@ -31,11 +30,11 @@
     "eslint-plugin-standard": "^3.0.1",
     "grid-styled": "^2.0.0-11",
     "jest": "^21.2.1",
-    "jest-glamor-react": "^3.1.1",
+    "jest-emotion": "^9.0.0",
     "prettier": "^1.7.2",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "react-emotion": "^8.0.2-13",
+    "react-emotion": "^9.0.0",
     "react-test-renderer": "^16.0.0",
     "rebass": "^1.0.4",
     "rimraf": "^2.6.2",
@@ -44,7 +43,7 @@
     "rollup-plugin-babel": "^3.0.2"
   },
   "dependencies": {
-    "emotion-theming": "^8.0.2-11",
+    "emotion-theming": "^9.0.0",
     "grid-emotion": "^2.1.0",
     "palx": "^1.0.2",
     "prop-types": "^15.6.0",
@@ -53,8 +52,8 @@
     "tag-hoc": "^1.0.0"
   },
   "peerDependencies": {
-    "emotion": "8",
-    "react-emotion": "8"
+    "emotion": "8 || 9",
+    "react-emotion": "8 || 9"
   },
   "scripts": {
     "lint": "eslint . --fix --ignore-path .gitignore",

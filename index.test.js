@@ -2,7 +2,7 @@
 import React from 'react'
 import { isElement } from 'react-dom/test-utils'
 import { create as render } from 'react-test-renderer'
-import serializer from 'jest-glamor-react'
+import { createSerializer } from 'jest-emotion'
 import Rebass, {
   Provider,
   hoc,
@@ -10,9 +10,9 @@ import Rebass, {
   createComponent,
   util
 } from './dist/index.cjs.js'
-import { sheet } from 'emotion'
+import * as emotion from 'emotion'
 
-expect.addSnapshotSerializer(serializer(sheet))
+expect.addSnapshotSerializer(createSerializer(emotion))
 
 test('exports an object', () => {
   expect(typeof Rebass).toBe('object')
