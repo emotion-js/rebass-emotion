@@ -1,13 +1,14 @@
 {
   "name": "rebass-emotion",
-  "version": "1.0.6",
-  "description":
-    "Functional React UI component library, built with emotion, wrapper around rebass",
+  "version": "1.0.7",
+  "description": "Functional React UI component library, built with emotion, wrapper around rebass",
   "main": "dist/index.cjs.js",
   "module": "dist/index.es.js",
   "author": "Brent Jackson",
   "license": "MIT",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.0.1",
