@@ -1,3 +1,5 @@
+# DEPRECATED
+## rebass now supports emotion so this package isn't necessary
 # rebass-emotion
 
 [![Build Status](https://travis-ci.org/emotion-js/rebass-emotion.svg?branch=master)](https://travis-ci.org/emotion-js/rebass-emotion)
